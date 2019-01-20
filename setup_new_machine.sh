@@ -22,3 +22,5 @@ if [ ! -f ~/.ssh/id_rsa.pub ]; then
 	# if not, create them
 	ssh-keygen -t rsa
 fi
+# this is the command to copy keys to the host: 
+## ssh-copy-id -i ~/.ssh/mykey user@host

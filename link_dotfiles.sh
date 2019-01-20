@@ -2,14 +2,21 @@
 USE_ZSH=true
 
 
-if $USE_ZSH; then
-    echo "Setting up zsh"
-    mv ~/.zshrc ~/.OLDzshrc
-    ln -s $(pwd)/.zshrc ~/
-    source ~/.zshrc
-else
-    echo "Setting up bash"
-    mv ~/.bashrc ~/.OLDbashrc
-    ln -s $(pwd)/.bashrc ~/
-    source ~/.bashrc
+#if $USE_ZSH; then
+#    echo "Setting up zsh"
+#    mv ~/.zshrc ~/.OLDzshrc
+#    ln -s $(pwd)/.zshrc ~/
+#    source ~/.zshrc
+#else
+#    echo "Setting up bash"
+#    mv ~/.bashrc ~/.OLDbashrc
+#    ln -s $(pwd)/.bashrc ~/
+#    source ~/.bashrc
+#fi
+
+if [ ! -f ~/.ssh/config ]; then 
+	# if not, create them
+	ln -s $(pwd)/sshconfig ~/.ssh/config 
+	
 fi
+

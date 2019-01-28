@@ -28,4 +28,6 @@ fi
 
 # map CAPS to escape
 setxkbmap -option "caps:swapescape"
-#nm-applet
+
+# display a random background image from the ~/.backgrounds folder
+feh --bg-scale -z ~/.backgrounds/

@@ -1,3 +1,7 @@
 Host hartwell
     HostName hartwell.ius.cs.cmu.edu
     User drussel1
+
+Host polaris
+    HostName polaris.clarkson.edu
+    User russeldj

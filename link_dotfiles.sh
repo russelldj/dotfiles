@@ -6,21 +6,21 @@ USE_ZSH=true
 if $USE_ZSH; then
     echo "Setting up zsh"
     mv ~/.zshrc ~/.OLDzshrc
-    ln -s $(pwd)/.zshrc ~/
+    cp $(pwd)/.zshrc ~/
     source ~/.zshrc
 else
     echo "Setting up bash"
     mv ~/.bashrc ~/.OLDbashrc
-    ln -s $(pwd)/.bashrc ~/
+    cp $(pwd)/.bashrc ~/
     source ~/.bashrc
 fi
 
 ## setting up ssh
 if [ ! -f ~/.ssh/config ]; then 
 	# if not, create them
-	ln -s $(pwd)/sshconfig ~/.ssh/config 
+	cp $(pwd)/sshconfig ~/.ssh/config 
 fi
 
 ## I3
 mv ~/.config/i3/config ~/.config/i3/OLDconfig
-ln -s $(pwd)/i3config ~/.config/i3/config
+cp $(pwd)/i3config ~/.config/i3/config

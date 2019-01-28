@@ -32,8 +32,15 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
-#
+# launch chrome
 bindsym $mod+n exec google-chrome 
+# launch spotify
+bindsym $mod+m exec spotify
+
+# change volume
+bindsym XF86AudioRaiseVolume exec amixer -D pulse sset Master 5%+
+bindsym XF86AudioLowerVolume exec amixer -D pulse sset Master 5%-
+
 
 # kill focused window
 bindsym $mod+Shift+q kill

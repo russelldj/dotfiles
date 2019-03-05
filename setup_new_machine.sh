@@ -33,3 +33,6 @@ if [ ! -f ~/.ssh/id_rsa.pub ]; then
 fi
 # this is the command to copy keys to the host: 
 ## ssh-copy-id -i ~/.ssh/mykey user@host
+
+# setup prezto 
+prezto.sh

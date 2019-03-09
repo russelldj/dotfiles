@@ -15,6 +15,9 @@ else
     source ~/.bashrc
 fi
 
+mkdir ~/.ssh
+mkdir -p ~/.config/i3
+	
 ## setting up ssh
 if [ ! -f ~/.ssh/config ]; then 
 	# if not, create them
@@ -24,3 +27,6 @@ fi
 ## I3
 mv ~/.config/i3/config ~/.config/i3/OLDconfig
 cp $(pwd)/i3config ~/.config/i3/config
+mv ~/.profile ~/OLDprofile 
+cp $(pwd)/profile ~/.profile
+. ~/.profile

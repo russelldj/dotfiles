@@ -55,3 +55,6 @@ fi
 ## ssh-copy-id -i ~/.ssh/mykey user@host
 
 mkdir ~/.backgrounds
+
+# setup prezto 
+prezto.sh

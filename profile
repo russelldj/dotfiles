@@ -31,4 +31,4 @@ setxkbmap -option "caps:swapescape"
 
 # display a random background image from the ~/.backgrounds folder
 # this can mess up the login if there is
-exec feh --bg-scale -z ~/.backgrounds/
+# exec feh --bg-scale -z ~/.backgrounds/

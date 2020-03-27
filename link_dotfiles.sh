@@ -27,6 +27,7 @@ fi
 ## I3
 mv ~/.config/i3/config ~/.config/i3/OLDconfig
 cp $(pwd)/i3config ~/.config/i3/config
+cp $(pwd)/init_workspace.sh ~/.config/i3/init_workspace.sh
 mv ~/.profile ~/OLDprofile 
 cp $(pwd)/profile ~/.profile
 . ~/.profile

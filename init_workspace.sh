@@ -15,18 +15,24 @@
 apps=(
  #if you're using urxvt then replace st with that	
  '/usr/bin/google-chrome'
+ '/snap/bin/atom'
  '/usr/bin/gnome-terminal'
  '/usr/bin/gnome-terminal -x htop'
- '/usr/bin/gnome-terminal -x gpustat'
+# '/usr/bin/gnome-terminal -x gpustat'
+# '/usr/bin/google-chrome https://www.youtube.com/watch?v=iIGKlicb8n0 --new-window' # open this first to hopefully get the sound working
+ '/usr/bin/pavucontrol'
  '/snap/bin/spotify'
 )
 
 # Which workspace to assign your wanted App :
 workspaces=(
 "1"
-"1"
+"2"
+"2"
 "4"
-"4"
+#"4"
+"9" # create a dummy spotify as the first one doesn't seem to work
+#"9"
 "9"
 )
 

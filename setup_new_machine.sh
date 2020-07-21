@@ -4,6 +4,7 @@ sudo apt install vim -y
 sudo apt install git -y
 sudo apt install zsh -y
 sudo apt install curl -y
+sudo apt install tree -y
 sudo apt install i3 -y
 sudo apt install feh -y
 # screenshot tool
@@ -14,6 +15,11 @@ sudo apt install ffmpeg -y
 sudo apt install pavucontrol -y
 sudo apt install cmake -y
 sudo apt install cmake-gui -y
+sudo apt install htop -y
+
+# Snap installs
+sudo snap install vlc
+j
 
 # install spotify as suggested by: https://websiteforstudents.com/install-spotify-linux-client-on-ubuntu-16-04-18-04-desktop/
 #sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
@@ -45,6 +51,7 @@ sudo apt install atom
 
 # and install the vim keybindings
 apm install vim-mode-plus
+# Also it would be a good idea to install linter, kite, python-pep8-linter
 
 sudo apt install google-chrome-stable
 

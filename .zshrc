@@ -98,3 +98,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias hart="ssh hartwell"
 
+# swap the caps and escape keys
+setxkbmap -option caps:swapescape

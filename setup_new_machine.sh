@@ -4,6 +4,7 @@ sudo apt install vim -y
 sudo apt install git -y
 sudo apt install zsh -y
 sudo apt install curl -y
+sudo apt install htop -y
 sudo apt install i3 -y
 sudo apt install feh -y
 # screenshot tool
@@ -28,8 +29,6 @@ sudo apt-get update && sudo apt-get install spotify-client
 sudo pip install numpy
 sudo pip install opencv-python
 
-# install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # install google chrome because though firefox is probably ok I don't like it
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
@@ -74,4 +73,8 @@ fi
 mkdir ~/.backgrounds
 
 # setup prezto
-source ./prezto.sh
+./prezto.sh
+
+
+# install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"

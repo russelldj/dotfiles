@@ -17,6 +17,7 @@ sudo apt install pavucontrol -y
 sudo apt install cmake -y
 sudo apt install cmake-gui -y
 sudo apt install htop -y
+sudo apt install tmux -y
 
 # Snap installs
 sudo snap install vlc
@@ -60,6 +61,7 @@ source ./link_dotfiles.sh
 # set up some useful git stuff
 git config --global user.email "david.russell@kitware.com"
 git config --global user.name  "David Russell"
+git config submodule.recurse true # keep submodules in sync
 
 # install git large file system
 # https://github.com/git-lfs/git-lfs/wiki/Installation
@@ -80,7 +82,7 @@ fi
 mkdir ~/.backgrounds
 
 # setup prezto
-./prezto.sh
+./zprezto.sh
 
 
 # install oh-my-zsh

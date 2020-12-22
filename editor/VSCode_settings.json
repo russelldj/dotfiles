@@ -1,0 +1,7 @@
+{
+  "keyboard.dispatch": "keyCode",
+  "files.associations": {
+    "*.txx": "cpp"
+  },
+  "files.trimTrailingWhitespace": true
+}

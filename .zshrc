@@ -42,4 +42,15 @@ alias viame_train_detector_anywhere="/home/david/dev/VIAME/build/install/bin/via
 bindkey -v
 bindkey "^R" history-incremental-search-backward
 
-
+git config --global help.autocorrect 20
+git config --global core.editor vim
+git config --global rerere.enabled true
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.ci commit
+git config --global alias.st status
+git config --global alias.fix 'commit -a --amend --no-edit'
+git config --global alias.ds 'diff --staged'
+git config --global alias.cm 'commit -m'
+git config --global alias.au 'add -u'
+git config --global alias.pf 'pull --ff-only'

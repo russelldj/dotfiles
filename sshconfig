@@ -1,7 +1,7 @@
-Host hartwell
-    HostName hartwell.ius.cs.cmu.edu
-    User drussel1
+Host hykri
+    HostName hykri.kitware.com
+    User david.russell
 
-Host polaris
-    HostName polaris.clarkson.edu
-    User russeldj
+Host numenor
+    HostName numenor.kitware.com
+    User david.russell

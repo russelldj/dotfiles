@@ -1,0 +1,6 @@
+## MongoDB
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+
+# Install omniboard
+sudo apt install nodejs npm
+sudo npm install -g omniboard

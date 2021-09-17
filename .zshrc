@@ -42,6 +42,8 @@ alias viame_train_detector_anywhere="/home/david/dev/VIAME/build/install/bin/via
 bindkey -v
 bindkey "^R" history-incremental-search-backward
 
+setxkbmap -option caps:swapescape
+
 git config --global help.autocorrect 20
 git config --global core.editor vim
 git config --global rerere.enabled true

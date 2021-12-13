@@ -59,7 +59,7 @@ sudo apt install google-chrome-stable
 source ./link_dotfiles.sh
 
 # set up some useful git stuff
-git config --global user.email "david.russell@kitware.com"
+git config --global user.email "davidrussell327@gmail.com"
 git config --global user.name  "David Russell"
 git config submodule.recurse true # keep submodules in sync
 git config --global alias.st status # keep submodules in sync
